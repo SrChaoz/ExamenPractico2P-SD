@@ -1,4 +1,11 @@
 # Ejercicio 1
+
+### Ejecucion
+- revisar que tenga las depdencias instaladas
+- ejecutar ne consola el comando: python task_processor.py
+
+### Explicacion
+
 En el Ejercicio 1 Se implemento un isstema de procesamiento de tareas distribuido usando hilos y usando procesos, en este ejercicios de generan 4 tareas con una dificultad aleatoria entre 1 y 5, al mometo de ejecutar este ejercico la salida en consola fue la siguiente:
 
 
@@ -26,6 +33,13 @@ En esta salida podemos determinar que los procesos fueron mas rpidos al momento 
 
 
 # Ejercicio 3
+
+### Ejecucion
+- revisar que tenga las depdencias instaladas
+- ejecutar ne consola el comando: python load_balance.py
+
+### Explicacion
+
 En el Ejercicio 3 se utilozo dos algoritmos de balanceo de carga uno que es round robin que lo que hace es que distribuye la carga en partes iguales, si tenemos dos servidores manda 1 peticion a una y otra  ala otra y asi continuamente, el otro algoritmo usado es least connection el cual manda las nuevs peticiones a el servidor con menos carga, en la ejecucuon d emi ejercicio este fue el resultado
 
 Simulacion de 50 peticiones concurrentes
@@ -40,5 +54,6 @@ Least connections:
   Servidor-2: 26
   Tiempo total: 0.675s
 
-
 En esta salida lo que se puede interpetear es que round robin es mas eficiente ya que balanceo de manera pareja y que least connection es un poco menos equilibrado y en cuanto a tiempo total para el balanceo ambos estuviron iguales asi que si mayor diferencia es la distribucion de peticiones 
+
+
