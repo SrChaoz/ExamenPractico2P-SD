@@ -91,5 +91,3 @@ if __name__ == "__main__":
     print("\nEjecutando con procesos")
     process_time, process_completed = processor.run_with_processes(tasks)
     print(f"Tareas completadas procesos: {process_completed}")
-
-#    analyze_results(thread_time, process_time)
